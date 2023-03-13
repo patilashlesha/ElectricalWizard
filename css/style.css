@@ -118,7 +118,50 @@ header .navbar-nav {margin-right: 20px;}
 	top: -72px;
 	pointer-events: none;
 }
-
+/* footer css */
+.map-sec {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding: 46px 5px;
+}
+.map-sec .container{position: relative; z-index: 1;} 
+.map-sec iframe{position: absolute; right: 0; bottom: 0; top: 0; left: 0;}
+.map-info {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+	max-width: 410px;
+	float: right;
+    font-family: 'gilroymedium';
+	width: 100%;
+    color: #1B1B1B;
+	padding: 24px;
+	text-align: center;
+}
+.map-info h3 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 24px;
+	letter-spacing: 0.3px;
+	font-weight: 700;
+	margin: 0 0 18px;
+}
+.map-info h3 span{color: #F38523;}
+.map-info p {color: #767676;line-height: 1.2;	margin: 0 0 25px;}
+.map-info .row {text-align: left;font-size: 18px;}
+.map-info h4 {
+	font-size: 16px;
+	color: #1661A4;
+	font-family: 'gilroysemibold';
+	margin: 0 0 10px;
+}
+.map-info h4 img {	margin-right: 10px;}
+.map-info ul {
+	list-style: none;
+	padding: 0 0 20px;
+	line-height: 1.2;
+}
+.map-info ul li{ margin: 0 0 10px;}
 /* responsive css */  
 @media (min-width:1200px){
     header .navbar-nav {margin-right:70px;}
@@ -130,4 +173,11 @@ header .navbar-nav {margin-right: 20px;}
 }
 @media (max-width:990px){
     .navbar-nav li { margin: 0 3px 15px;  font-size: 16px; }
+    .map-info { float: none;   margin: 0 auto; } 
+}
+@media (max-width:767px){
+    .map-info .row{ font-size: 15px;}     
+}
+@media (max-width:400px){
+.map-info .col-6 {	width: 100%;	text-align: center;}
 }
