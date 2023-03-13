@@ -1,0 +1,70 @@
+body {
+    background: #ffffff;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height:1.4;
+    width: 100%;
+  }
+ @font-face {
+    font-family: 'gilroymedium';
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroybold';
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('../fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:#222222;  outline:none;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {text-decoration: none; outline:none;}
+ul, ol { margin-left: 0; }
+html {text-rendering: optimizeLegibility !important; -webkit-font-smoothing: antialiased !important;}
+body {
+    background: #ffffff;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height:1.4;
+    width: 100%;
+  }
+html,body{height:100%;}
+strong { font-weight: 600;}
+a,a:focus{
+      color:#222222;
+      outline:none; 
+      text-decoration:none;
+    -webkit-transition: all .3s ease-out;
+     -moz-transition: all .3s ease-out; 
+     -o-transition: all .3s ease-out;
+     transition: all .3s ease-out;
+  }
+a:focus{outline:none;}
+sup {
+      font-size: 70%;
+      top: -0.4em;
+  }
+a img{border-style:none; outline:none;}
+img {
+      border: 0 none;
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle;
+         -webkit-transition: all .3s ease-out;
+     -moz-transition: all .3s ease-out;
+     -o-transition: all .3s ease-out;
+     transition: all .3s ease-out;
+}
