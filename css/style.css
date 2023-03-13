@@ -68,3 +68,9 @@ img {
      -o-transition: all .3s ease-out;
      transition: all .3s ease-out;
 }
+#wrapper {
+	clear: both;
+	width: 100%;
+	display: block;
+}
+#wrapper::after{content: ""; display: block; clear: both; overflow: hidden;}
