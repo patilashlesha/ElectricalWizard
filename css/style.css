@@ -162,6 +162,29 @@ header .navbar-nav {margin-right: 20px;}
 	line-height: 1.2;
 }
 .map-info ul li{ margin: 0 0 10px;}
+.disc-sec {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	padding: 70px 5px;
+}
+.disc-sec .container {
+	background: #FCFCFC;
+	max-width: 1090px;
+	padding: 50px 24px;
+} 
+.disc-sec h3 {
+	color: #2F793E;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0 0 37px;
+}
+.disc-sec p {
+	margin: 0 0 6px;
+	color: #000;
+	text-align: justify;
+	line-height: 18.75px;
+}
 /* responsive css */  
 @media (min-width:1200px){
     header .navbar-nav {margin-right:70px;}
@@ -177,6 +200,10 @@ header .navbar-nav {margin-right: 20px;}
 }
 @media (max-width:767px){
     .map-info .row{ font-size: 15px;}     
+    .disc-sec .container{padding: 30px 15px;}
+    .disc-sec{ padding: 40px 5px;}
+    .disc-sec h3 {  font-size: 24px;  margin: 0 0 20px; }
+    .foot-in {	float: none;}
 }
 @media (max-width:400px){
 .map-info .col-6 {	width: 100%;	text-align: center;}
