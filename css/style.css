@@ -162,6 +162,7 @@ header .navbar-nav {margin-right: 20px;}
 	line-height: 1.2;
 }
 .map-info ul li{ margin: 0 0 10px;}
+.map-info .btn {font-family: 'Plus Jakarta Sans';	font-weight: 700;}
 .disc-sec {
 	overflow: hidden;
 	clear: both;
@@ -172,7 +173,8 @@ header .navbar-nav {margin-right: 20px;}
 	background: #FCFCFC;
 	max-width: 1090px;
 	padding: 50px 24px;
-} 
+	border-radius: 5px;
+}
 .disc-sec h3 {
 	color: #2F793E;
 	font-size: 32px;
@@ -185,6 +187,39 @@ header .navbar-nav {margin-right: 20px;}
 	text-align: justify;
 	line-height: 18.75px;
 }
+.foot-bot {
+	background: #FEFEFE;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	padding: 60px 5px;
+}
+.foot-bot .list-inline {margin: 10px 0 15px;}
+.foot-bot .list-inline-item:not(:last-child) {margin-right: 11px;}
+.pos-link {	display: inline-block;	margin-top: 10px;}
+.foot-bot h4 {
+	color: #1B1B1B;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+	margin: 0 0 18px;
+}
+.foot-nav {
+	list-style: none;
+	padding: 0;
+	color: #767676;
+	line-height: 1.2;
+}
+.foot-nav li {margin: 0 0 19px;}
+.foot-nav li a{color: inherit;}
+.copy-right {
+	color: #1661A4;
+	margin:45px 0 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+}
+.foot-in {	float: right;}
 /* responsive css */  
 @media (min-width:1200px){
     header .navbar-nav {margin-right:70px;}
@@ -204,6 +239,10 @@ header .navbar-nav {margin-right: 20px;}
     .disc-sec{ padding: 40px 5px;}
     .disc-sec h3 {  font-size: 24px;  margin: 0 0 20px; }
     .foot-in {	float: none;}
+    .foot-bot {  padding: 40px 5px;  text-align: center;  }
+    .copy-right {   margin: 20px 0 0; }
+    .pos-link { display: block; max-width: 225px;  margin: 10px auto; }
+    .disc-sec img { margin: 20px 0 0; }
 }
 @media (max-width:400px){
 .map-info .col-6 {	width: 100%;	text-align: center;}
